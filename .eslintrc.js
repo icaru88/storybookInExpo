@@ -1,0 +1,33 @@
+module.exports = {
+  root: true,
+  extends: '@react-native-community',
+  parser: 'babel-eslint',
+  env: {
+    amd: true,
+    node: true,
+    jest: true,
+  },
+  rules: {
+    'comma-dangle': 'off',
+    'consistent-return': 'off',
+    'import/prefer-default-export': 'off',
+    'linebreak-style': 'off',
+    'max-len': 'off',
+    'no-console': 'off',
+    'no-param-reassign': 'off',
+    'no-use-before-define': 'off',
+    'prefer-template': 'off',
+    'react/destructuring-assignment': 'off',
+    'react/forbid-prop-types': 'off',
+    'react/jsx-filename-extension': 'off',
+    'react/prefer-stateless-function': 'off',
+    'react/prop-types': 'off',
+    semi: 'off',
+    'no-else-return': 'off',
+    'eslint-disable-next-line no-sparse-arrays': 'off',
+  },
+  globals: {
+    fetch: false,
+    __DEV__: false,
+  },
+};

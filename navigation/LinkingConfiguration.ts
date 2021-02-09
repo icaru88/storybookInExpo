@@ -16,6 +16,11 @@ export default {
               TabTwoScreen: 'two',
             },
           },
+          TabLink: {
+            screens: {
+              TabLinkScreen: 'Link',
+            },
+          },
         },
       },
       NotFound: '*',
